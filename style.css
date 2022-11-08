@@ -4,6 +4,26 @@ body {
   animation: gradient 15s ease infinite;
   height: 100vh;
 }
+img {
+  width: 20%;
+  object-fit: cover;
+  padding-bottom: 100px;
+}
+h5 {
+  font-size: 40px;
+  padding-bottom: 50px;
+}
+p{
+  font-size: 30px;
+  padding-bottom: 50px;
+
+}
+h1{
+  font-size: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+
+}
 .fa {
   padding-left: 15px;
   padding-right: 15px;
@@ -61,5 +81,13 @@ body {
   }
   100% {
     background-position: 0% 50%;
+  }
+}
+
+/* if screen is smaller than 600px make the image bigger */
+
+@media screen and (max-width: 600px) {
+  img {
+    width: 70px;
   }
 }
